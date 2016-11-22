@@ -1,0 +1,48 @@
+h1{
+	text-align: center;
+	color: darkred;
+}
+content{
+	display: block;
+	text-align:center;
+	margin: auto;
+}
+#dropdown{
+	display: inline-block;
+}
+
+.images{
+	width: 360px;
+	margin: auto;
+}
+.images:before, .images:after {
+	content:' ';
+	display:block;
+}
+.images:after{
+	clear:both;
+}
+img {
+    filter: grayscale(100%);
+    margin: auto;
+}
+ul{
+	padding:30px 0px 0px;
+	margin: 0px;
+}
+li {
+	list-style: none;
+	float: left;
+	width: 120px;
+	height: 100px;
+	margin: 0;
+}
+li:nth-child(6) img{
+	margin-top: 15px;
+} 
+li:nth-child(8) img{
+	margin-top: 15px;
+}
+.color-img {
+   filter: grayscale(0%);
+}
