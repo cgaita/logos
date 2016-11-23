@@ -31,6 +31,6 @@ var getSelections =function(){
 		}
 	});
 }
-$(document).ready(function () {
+$(document).ready(function(){
 getSelections();
 });
